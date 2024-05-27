@@ -1,3 +1,18 @@
+/*
+Output
+A single line with an integer indicating 
+the smallest possible difference between 
+the amount of paint received by the person 
+who receives the most paint, and the amount 
+received by the person who receives the least.
+
+Examples input
+2       The first line contains the number of friends.
+1 2     The second line contains the amount of paint in each of the N
+        cans of red paint.
+1 2     Finally, the third line contains the amount of paint in each of the N
+        cans of blue paint.
+*/
 let input = [5, 5, 5, 5]
 
 function progresiones(entrada) {
