@@ -1,3 +1,13 @@
+let input = [[3,1],[1,1]]
+let suma1 = input[0].reduce((a,b)=>a+b,0);
+let suma2 = input[1].reduce((a,b)=>a+b,0);
+let resultado;
+suma1 < suma2 ? resultado = "P": resultado = "A";
+if(suma1==suma2) resultado = "D";
+console.log(resultado);
+
+
+
 /*
 Output
 A single line with an integer indicating 
@@ -13,6 +23,7 @@ Examples input
 1 2     Finally, the third line contains the amount of paint in each of the N
         cans of blue paint.
 */
+/*
 let input = [5, 5, 5, 5]
 
 function progresiones(entrada) {
@@ -66,7 +77,7 @@ function progresiones(entrada) {
 }
 let eso = progresiones(input);
 console.log(eso);
-
+*/
 /*
 function progresiones(entrada) {
     let conteniendo = entrada[0];
